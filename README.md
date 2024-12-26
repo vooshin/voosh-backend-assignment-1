@@ -120,7 +120,7 @@ these status codes will be checked for each endpoint,a nd all get requests shoul
 1. [**POST BASEURL/signup**](#1-post-signup---register-a-new-user): 201, 400, 409
 2. [**POST BASEURL/login**](#2-post-login---login-a-user): 200, 400, 404
 3. [**GET BASEURL/users**](#3-get-users---retrieve-all-users): 200, 400, 401
-4. [**POST BASEURL/users/add-user**](#4-post-usersadd-user---add-a-new-user): 201, 400, 401, 403, 409
+4. [**POST BASEURL/users/add-user**](#4-post-usersadd-user---add-a-new-user): 201, 400, 401, 409
 5. [**DELETE BASEURL/users/:id**](#5-delete-usersid---delete-a-user): 200, 400, 401, 403, 404
 6. [**PUT BASEURL/users/update-password**](#6-put-usersupdate-password---update-user-password): 204, 400, 401, 403, 404
 7. [**GET BASEURL/artists**](#7-get-artists---retrieve-all-artists): 200, 400, 401
@@ -427,7 +427,6 @@ POST BASE-URL/users/add-user
 - **`201`**: User created successfully.
 - **`400`**: Bad Request.
 - **`401`**: Unauthorized Access.
-- **`403`**: Forbidden Access.
 - **`409`**: Email already exists.
 
 #### Responses:
