@@ -148,7 +148,7 @@ these status codes will be checked for each endpoint,a nd all get requests shoul
 
 ### 0. GET /logout - Logout a user
 
-- **Description**: This endpoint is used to logout a user from the system.
+- **Description**: This endpoint is used to log a user out of the system. After this, token should no longer work, it will be considered invalid.
 
 #### Request Headers:
 
